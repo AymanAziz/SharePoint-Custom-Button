@@ -4,7 +4,6 @@
 
 This is the navigation button web part for the department page
 
-[picture of the solution in action, if possible]
 
 ## Used SharePoint Framework Version
 
