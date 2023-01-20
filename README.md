@@ -2,7 +2,7 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+This is the navigation button web part for the department page
 
 [picture of the solution in action, if possible]
 
