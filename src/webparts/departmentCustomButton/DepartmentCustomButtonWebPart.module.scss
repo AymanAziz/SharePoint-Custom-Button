@@ -1,0 +1,127 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.departmentCustomButton {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+// CSS code
+.helloWord {
+  overflow: visible;
+  color: var(--bodyText);
+  display: initial
+}
+
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+@media only screen and (max-width:1279px){ 
+  
+
+  //button 2
+  .button2 {
+    text-overflow: ellipsis;
+    font-weight: 590;
+    text-align: center;
+    border-radius: 200px;
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 18px;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.1));
+    aspect-ratio: 17/5;
+    font-size: 1.5vh !important;
+    width: 100%;
+  }
+  
+
+  .logo {
+    width: 100%;
+    max-width: 3vh !important;
+    text-align: end;
+    padding-left: 20%;
+    text-align: center;
+  }
+  
+}
+
+.logo {
+  width: 100%;
+  max-width: 2.8vw;
+}
+
+// // //button 2
+.button2 {
+  text-overflow: ellipsis;
+  font-weight: 590;
+  border-radius: 200px;
+  border-style: solid;
+  border-width: 2px;
+  min-height: 5vh;
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.1));
+  aspect-ratio: 17/5;
+  font-size: clamp(min(10vw,.01rem),1.5vh,max(30vw,4rem));
+  text-align: center;
+}
+
+@media only screen and (max-height:700px){ 
+
+  .logo {
+    max-width: 3.2vw !important;
+  }
+  
+}
+@media only screen and (min-height:700px){ 
+
+  .logo {
+    min-width: 3.8vw !important;
+  }
+  
+}
+
+//hide webpart
+@media screen and (max-width: 1279px) {
+  /* hide*/
+div[data-automation-id="CanvasLayout"]:last-child > div[data-automation-id="CanvasZone"]:first-child > div > div[data-automation-id="CanvasSection"] > div[data-automation-id="CanvasControl"]
+{
+   position:none !important;
+   margin: 0;
+   padding: 0;
+}
+  
+}
+
+.headerButton1 {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit,minmax(101.9%,1fr));
+}

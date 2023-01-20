@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Custom-Button-For-Department-client-side-solution",
+    "id": "e160ba91-5493-44e1-bccc-fe96246145d1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "webpart description"
+      },
+      "longDescription": {
+        "default": "webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "webpart Feature",
+        "description": "The feature that activates elements of the webpart solution.",
+        "id": "9bc9d975-eda5-4fd3-8435-762ec0d92311",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/Custom-Button-For-Department-webpart.sppkg"
+  }
+}

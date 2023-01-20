@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "department-custom-button-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/departmentCustomButton/DepartmentCustomButtonWebPart.js",
+          "manifest": "./src/webparts/departmentCustomButton/DepartmentCustomButtonWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DepartmentCustomButtonWebPartStrings": "lib/webparts/departmentCustomButton/loc/{locale}.js"
+  }
+}
